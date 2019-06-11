@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS boston;
+CREATE DATABASE boston;
+
+USE boston;
+
+CREATE TABLE colleges (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);

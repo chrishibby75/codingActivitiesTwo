@@ -1,0 +1,17 @@
+<style media="screen">
+    li {
+        height: 75px;
+        width: 200px;
+        color: red;
+        background: yellow;
+        margin-bottom: 25px;
+    }
+</style>
+
+<h1>Lunches for {{eater}}</h1>
+
+<ul>
+    {{#each foods }}
+    <li>{{lunch}}</li>
+    {{/each}}
+</ul>

@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS cat_db;
+CREATE DATABASE cat_db;
+
+USE cat_db;
+
+CREATE TABLE cats(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    sleepy BOOLEAN DEFAULT false,
+    PRIMARY KEY(id)
+);

@@ -1,0 +1,14 @@
+{
+  "name": "geocodenpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "geocode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-geocoder": "^3.22.0"
+  }
+}
